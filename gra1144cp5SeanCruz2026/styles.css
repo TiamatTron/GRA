@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color: #FFE4FE;
+    background-attachment: fixed;
+}
+wrapper {
+    display: block;
+    margin: auto;
+    width: 1920px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
+h1 {
+    display: inline-block;
+}
+nav a li {
+    padding: 20px;
+    display: inline-block;
+    background-color: #FA83D0;
+    color: #3F3F3F;
+}
+nav a li:hover {
+    background-color: #D40062;
+}
+nav {
+    text-align: center;
+}
