@@ -1,0 +1,150 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color: #FFE4FE;
+    background-attachment: fixed;
+}
+wrapper {
+    display: block;
+    margin: auto;
+    width: 1920px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
+h1 {
+    display: inline-block;
+}
+nav a li {
+    padding: 20px 60px;
+    display: inline-block;
+    background-color: #FA83D0;
+    color: #3F3F3F;
+}
+nav a li:hover {
+    background-color: #D40062;
+}
+nav {
+    text-align: center;
+    background-color: #970101;
+}
+.home {
+    background-image: url(Mori%20Calliope%20Home.png);
+    height: 750px;
+}
+main {
+    background-size: cover;
+    background-position: center 0%;
+}
+h2 {
+    padding: 20px;
+    margin: 0;
+}
+.home h2 {
+    padding-top: 100px;
+    font-size: 58px;
+}
+a li img {
+    height: 50px;
+    margin: -20px 0px;
+    display: inline-block;
+}
+.concerts {
+    background-image: url(Concert%20background.gif);
+    height: 780px;
+    color: #FFFFFF;
+    font-size: 58px;
+    padding-top: 100px;
+    background-position: center center;
+}
+.news {
+    background-image: url(News%20Background.png);
+    background-position: center bottom;
+    height: 1170px;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.news h2 {
+    padding-top: 7px;
+}
+.Muisc section img {
+    display: inline-block;
+    height: 300px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.Muisc section img:hover {
+    background-color: #D40062;
+}
+.Muisc section {
+    padding-left: 500px;
+    padding-right: 400px;
+}
+.Streams iframe {
+    width: 1080px;
+    height: 720px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.Photos section img {
+    display: inline-block;
+    width: 600px;
+}
+.Photos section {
+    padding: 40px;
+}
+.Emil section {
+    background-color: #FF8DD7;
+    border-radius: 30px;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-align: center;
+}
+.Emil section h3 {
+    color: #6780DB;
+    padding-bottom: 30px;
+}
+.Merch section img {
+    padding: 50px;
+    height: 400px;
+    margin-left: 100px;
+}
+.Merch section img:hover {
+    background-color: #D40062;
+}
+.Blog section {
+    margin-left: 600px;
+}
+.Muisc h2 {
+    font-size: 58px;
+    margin-top: 70px;
+}
+.Streams h2 {
+    font-size: 58px;
+    margin-top: 70px;
+}
+.Photos h2 {
+    font-size: 58px;
+    margin-top: 70px;
+}
+.Emil h2 {
+    font-size: 58px;
+    margin-top: 70px;
+}
+.Merch h2 {
+    margin-top: 70px;
+    font-size: 58px;
+}
+.Blog h2 {
+    margin-top: 70px;
+    font-size: 58px;
+}
+.privacy h2 {
+    font-size: 58px;
+    margin-top: 70px;
+}
