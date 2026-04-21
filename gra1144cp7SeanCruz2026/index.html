@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Spacelocity | Sean Cruz, 2026</title>
+<script src="https://kit.fontawesome.com/111ffdf6cd.js" crossorigin="anonymous"></script>
+<style type="text/css">
+body {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100px;
+    background-color: #000000;
+    background-image: url(Coruscant.jpg);
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+}
+header {
+    height: 100px;
+    background-color: #101F8A;
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 {
+    background-image: none;
+    background-color: rgba(255,255,255,0.50);
+}
+#Tabs1 ul li {
+    text-align: center;
+}
+#Tabs1 ul li i {
+    font-size: 30px;
+    color: #000000;
+}
+	#tabs-1 div{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18% 10%;
+    gap: 10px;
+	}
+.search {
+    width: 150px;
+    color: #FFFFFF;
+    background-color: #0049FF;
+}
+input, select {
+    border-radius: 10px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header>
+  <wrapper>
+    <h1>Spacelocity</h1>
+  </wrapper>
+</header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><i class="fa-solid fa-plane"></i><br>
+Flights</a></li>
+      <li><a href="#tabs-2"><i class="fa-solid fa-book-journal-whills"></i><br>
+Hotels</a></li>
+      <li><a href="#tabs-3"><i class="fa-solid fa-car"></i><br>
+Cars</a></li>
+      <li><a href="#tabs-4"><i class="fa-brands fa-buy-n-large"></i><br>
+Packages</a></li>
+      <li><a href="#tabs-5"><i class="fa-brands fa-d-and-d"></i><br>
+Activities</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Find your flights</p>
+      <div>
+        <input type="text" placeholder="Leaving from">
+        <input type="text" placeholder="Going to"><input type="date"><select>
+          <option value="0">Number of travelers</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          </select><input type="submit" class="search" value="Search">
+      </div>
+    </div>
+    <div id="tabs-2">
+      <p>Find your hotels</p>
+    </div>
+    <div id="tabs-3">
+      <p>Find your car rental</p>
+    </div>
+    <div id="tabs-4">
+      <p>Bundle and save</p>
+    </div>
+    <div id="tabs-5">
+      <p>Find things to do</p>
+    </div>
+  </div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+<style type="text/css">
+body {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100px;
+    background-color: #000000;
+    background-image: url(Coruscant.jpg);
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+}
+header {
+    height: 100px;
+    background-color: #101F8A;
+}
+#Tabs1 ul {
+    background-image: none;
+}
+</style></html>
