@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Responsive Navigation | Sean Cruz, 2026</title>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+body {
+    margin: 0;
+    background-image: url(halo-ring-1920-x-957-wallpaper-648ku1bqdsoxgaa8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+wrapper {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    background-image: url(ZPQ7NIz.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+#home {
+    background-image: url(1737287-in-game-PC-gaming-screen-shot-Halo-3-High-Ground.jpg);
+    background-size: cover;
+}
+#services {
+    background-image: url(zp-71389_Halo-3_2009_07-07-09_02.jpg);
+    background-size: cover;
+}
+#contact {
+    background-image: url(narrows-halo-3.jpg);
+    background-size: cover;
+}
+section {
+    height: 500px;
+}
+nav {
+    background-color: rgba(0,96,144,0.79);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+a li {
+    padding: 15px;
+    list-style-type: none;
+    border-bottom: thin solid white;
+}
+a li:hover {
+    background-color: darkblue;
+}
+.topnav.responsive a{
+    display:block;
+}
+.topnav.responsive a:not(:first-child) {
+     display: none;
+}
+	.topnav .fa-bars {
+    display: none;
+}
+.topnav .fa-times {
+    display: block;
+}
+.topnav.responsive .fa-bars {
+    display: block;
+}
+.topnav.responsive .fa-times {
+    display: none;
+}
+#myTopnav a {
+    color: white;
+}
+#myTopnav {
+    padding: 5px;
+}
+#home:hover {cursor: url("Acurser.png"), auto;}
+#services:hover {cursor: url("hmp.png"), auto;
+}
+#contact:hover {cursor: url("Scurser.png"), auto;
+}
+@media (min-width:600px) {
+.topnav a:not(:first-child),.topnav.responsive a:not(:first-child) {
+    display:inline-block;
+     }
+.topnav .fa.fa-bars {
+     display:none;
+     }
+.title {
+    width: auto;
+    margin-left: 70%;
+    padding: 10px;
+    background-color: rgba(0,35,49,0.44);
+    border-bottom-left-radius: 45px;
+}
+button {
+    height: 57%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.00);
+    border-color: rgba(255,255,255,0.00);
+    margin-left: 60%;
+    margin-top: 8%;
+}
+#home button img {
+}
+#services button img {
+    margin-left: -670px;
+}
+button img {
+    height: 82%;
+    width: auto;
+	cursor: url("fire.png"), auto;
+}
+#contact button img {
+    padding-left: 103px;
+}
+h1 {
+    color: rgba(255,238,0,1.00);
+}
+</style>
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</head>
+
+<body>
+<wrapper>
+  <header>
+    <h1>Halo Loadout Range</h1>
+    <nav class="topnav responsive" id="myTopnav">
+		<a href="javascript:void(0);" class="icon"
+     onclick="myFunction()">
+  <i class="fa fa-bars"></i><i class="fa fa-times"></i>
+     
+        <a href="#home"><li><img src="assault-rifle.png" alt="" width="220" height="70"></li></a>
+        <a href="#services"><li><img src="magnum.png" alt="" width="220" height="70"></li></a>
+        <a href="#contact"><li><img src="sniper-rifle.png" alt="" width="220" height="70"></li></a>
+
+		</a>
+    </nav>
+  </header>
+  <main>
+<section id="home"><img src="assault-rifle.png" alt="" width="220" height="70" class="title">
+  <button><img src="Reach_elite_minor_render.png" alt="" width="750" height="1080"></button>
+</section>
+    <section id="services"> <img src="magnum.png" alt="" width="220" height="70" class="title">
+    <button><img src="Reach_elite_minor_render.png" alt="" width="750" height="1080"></button>
+    </section>
+    <section id="contact">
+      <img src="sniper-rifle.png" alt="" width="220" height="70" class="title">
+      <button><img src="Reach_elite_minor_render.png" alt="" width="750" height="1080"></button>
+</section>
+  </main>
+<footer></footer>
+</wrapper>
+</body>
+</html>
